@@ -17,9 +17,10 @@ jobs:
 
       - run: npm install --prefix functions
 
-      - run: npx firebase-tools deploy --only functions --project haber-68a3c
+      - run: npx firebase-tools deploy --only functions --project haber-68a3c!
         env:
-          GOOGLE_APPLICATION_CREDENTIALS_JSON: ${{
+          GOOGLE_APPLICATION_CREDENTIALS_JSON: ${{ }}
+{
   "type": "service_account",
   "project_id": "haber-68a3c",
   "private_key_id": "5165909939779ccbcf641a4a430749de7f0dc556",
@@ -35,4 +36,4 @@ dVXRir\n+U0Huhd6TxqUigwjBpnRL0NFzMERPaKwOkvlth2+ARvX7iQUvL65uAfhAoGAAVXz\n7+zHZW
   "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
   "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40haber-68a3c.iam.gserviceaccount.com",
   "universe_domain": "googleapis.com"
-}}
+}
