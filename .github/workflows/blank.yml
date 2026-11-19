@@ -19,4 +19,20 @@ jobs:
 
       - run: npx firebase-tools deploy --only functions --project haber-68a3c
         env:
-          GOOGLE_APPLICATION_CREDENTIALS_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+          GOOGLE_APPLICATION_CREDENTIALS_JSON: ${{
+  "type": "service_account",
+  "project_id": "haber-68a3c",
+  "private_key_id": "5165909939779ccbcf641a4a430749de7f0dc556",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDHuDzc4kg9fHzm\ndGxEU6Gk2j5cOLlk4kE89xuzbIeLJrzK2+JMEjcVUSKC/cGADIb8FzWFmBkQP0ep\nkaPgNsK3I6PmMrbj9PzX/Sv2ZQRhIA9w3dkCbPb+NTLV82w1CZK7Iw8Rqj81Ht47\n7M+5qSIyYhIRcsftaZNaLXPiB1tQWhUGByBP4L7cZHQ5mPIJ0LMkNQRwh9v4vlo5\nHJQEhNbup35wbUSo9W1fpvnEOHGIM61DwFseR72/
+yIsIdKh+4B0m76+lfUyzizyq\nJUsfq0rr2uRUL72EBq8910afyXdk/k9Vgmh6epcL/fobEuQeYKfg5tK/qj5QCN6a\nfgLIwdtpAgMBAAECggEABlWf+48DRMz6HqqWZP/kjnicFft4GNyqvkrlomYYsfeJ\ncSMyfSBuRhMv1akD/kJXdS8sw8cYU2k4ZgbQJGxENoAPQp286oPCkbyuTGc1kXmN\nd9JXf9HSLyujiEDrX47FTEFvSMuGK/KF0K+BAqXcR24QHeTOtcddlLSAmoyKb0TP\nvtXcnnAggy22zAbrHFe6pdttwJOakjFHPB53OCWDztplf9MnYbcSJ7VA/eoLsWN3\nZqJUPJjK3ZzLljDwvSf4FDNGFhZDJPhTS0EkM0WC59aSt17sW+KSJy9BWZ1+Zzwj\nY3U2gfeAZztKlUILyiG7CaCeA6jTtqlUI9L5fzDssQKBgQD
+6jmcWpzHwTbodcqa5\nbL512xqp/O4JBPSse1OKcE1KAySW/JVfgp3kiaWiEajupniidx3QsLvcf4kxAuAD\n3KD9eHFbPaDXybvZTNZzyiVmsF0g98foprODxExeW2Eaq70qU2tOcw6F44mOvnPy\n6T8BmOY5Z3fz5wqDScoecnT4UQKBgQDMDxTQF3baV8U8l3kQBCDZp72d9QMHfTCC\nauvVi9A56YAPERzyNI6iEIBTMmjjTrTFiowsMKv7jpZOxRapJeCSHvxolwyo+w5V\n8h87Cp3exTc3rO8Xt4oQHhfrWMNvfhZRApIEl7tV3fdYGMp5C3CanTV2cPSWrWcg\nmJkA/0iDmQKBgFIc9UABT2Z3srUP6//82XZ6dgSbtc8S5rTYPgqyv0GwQf+Ri8qf\nXeuWCMhSjVCZEhP8gbLxGMAss+NyE8RwO/qVzGCgk+PkY0HV4rpT12oOBp
+dVXRir\n+U0Huhd6TxqUigwjBpnRL0NFzMERPaKwOkvlth2+ARvX7iQUvL65uAfhAoGAAVXz\n7+zHZWR/sQbYzwcH5ATaE+efrnPeVmw2wP4aTda+dNrK0rcPW/Y5sNG6qApC2qwu\ngLeM2Ke1Siy2GkNaNfqn8lNSzORf0qY0GCHYqLWnx+CE7CXSbIqV43+AQAGWSc93\nfzozCrvaO6Rl5ubxRMHUsMLKhxX5f9gf4EbLhbkCgYEA7SAraFJ+OX6npu4Lag0v\nm8Vv3bagix0D59jSzyMDUVKic7TEoF3ukYt+QT+EGpNtW3HN1SsQgPh4FdbHZqMS\nUXm9gQidJtWQg/Gj2lN4TFDZ8yNw7QGjpQ6LD0zQCTaoswZK2Qav/kYKChLKfMtT\nhx2RVKDRfAfP3yMjrQ3/kd0=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase
+-adminsdk-fbsvc@haber-68a3c.iam.gserviceaccount.com",
+  "client_id": "113215034800214377396",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40haber-68a3c.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}}
